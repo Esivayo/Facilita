@@ -202,3 +202,52 @@ footer {
   font-weight: light;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .header-content h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .p-conteudo {
+    font-size: 0.9rem;
+    width: 95%;
+    margin: 1rem auto;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .search-filter-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #searchInput {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .filter-container {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .card-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
+
